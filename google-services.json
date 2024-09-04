@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "171160884867",
+    "project_id": "qbite-9d0ca",
+    "storage_bucket": "qbite-9d0ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171160884867:android:556dd7ad54698862b66db6",
+        "android_client_info": {
+          "package_name": "com.example.qbite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa2VSZYivYCFSsGoPbbM1GaoOgChI_Vpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
