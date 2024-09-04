@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+
+    <!-- Question View -->
+    <TextView
+        android:id="@+id/question_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/rounded_corner_background"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeMaxTextSize="100sp"
+        tools:text="What is android OS?"
+        android:shadowColor="@color/darkfont"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:shadowRadius="4"/>
+
+    <!-- Answer Option Buttons -->
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="4dp"
+        android:backgroundTint="@color/gray"
+        android:gravity="center_vertical"
+        android:paddingVertical="12dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:drawablePadding="8dp"
+        tools:text="Ans A" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="4dp"
+        android:backgroundTint="@color/gray"
+        android:gravity="center_vertical"
+        android:paddingVertical="12dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:drawablePadding="8dp"
+        tools:text="Ans B" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="4dp"
+        android:backgroundTint="@color/gray"
+        android:gravity="center_vertical"
+        android:paddingVertical="12dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:drawablePadding="8dp"
+        android:paddingEnd="16dp"
+
+        tools:text="Ans C" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="4dp"
+        android:backgroundTint="@color/gray"
+        android:gravity="center_vertical"
+        android:paddingVertical="12dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:drawablePadding="8dp"
+        tools:text="Ans D" />
+
+</LinearLayout>

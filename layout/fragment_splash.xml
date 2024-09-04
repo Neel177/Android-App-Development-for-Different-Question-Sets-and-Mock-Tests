@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:theme="@style/Base.Theme.Qbite"
+    tools:context=".fragments.SplashFragment">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Qbytes"
+        android:textColor="#2E43B7"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:shadowColor="#03A9F4"
+        android:shadowDx="8"
+        android:shadowDy="8"
+        android:shadowRadius="3"
+        android:layout_marginTop="20dp" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="108dp"
+        android:layout_height="111dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="270dp"
+        android:src="@drawable/vulogo" />
+    <LinearLayout
+        android:layout_width="297dp"
+        android:layout_height="134dp"
+        android:layout_below="@id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/icon1"
+                android:layout_width="63dp"
+                android:layout_height="77dp"
+                android:src="@drawable/qs" />
+
+            <TextView
+                android:layout_width="99dp"
+                android:layout_height="52dp"
+                android:text="Questions repository"
+                android:gravity="center"
+                android:textColor="@color/darkfont"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Icon 2 -->
+        <LinearLayout
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/icon2"
+                android:layout_width="107dp"
+                android:layout_height="80dp"
+                android:src="@drawable/qize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test sets"
+                android:textColor="@color/darkfont"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- Icon 3 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/icon3"
+                android:layout_width="64dp"
+                android:layout_height="81dp"
+                android:src="@drawable/more" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More"
+                android:textStyle="bold"
+                android:textColor="#071486"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

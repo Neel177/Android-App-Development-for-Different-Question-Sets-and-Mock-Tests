@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#17664E"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Greeting TextView -->
+        <TextView
+            android:id="@+id/greetingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp"
+            tools:text="Hello, John!" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:textColor="#BAD1CA"
+            android:text="Here are some of our available test sets"
+            android:textSize="19dp"/>
+
+        <!-- Category 1 Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category 1"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/category1TextView"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/category1RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Category 2 Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category 2"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/category2TextView"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/category2RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Category 3 Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category 3"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/category3TextView"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/category3RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:paddingBottom="8dp" />
+
+
+        <Button
+            android:id="@+id/startNewQuizButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="See more"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:background="@drawable/rounded_corner_background"
+            android:textColor="@color/white" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="History"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/quizHistoryRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="70dp"
+
+            android:paddingBottom="16dp" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

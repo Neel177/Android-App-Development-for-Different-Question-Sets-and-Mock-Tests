@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    card_view:cardCornerRadius="16dp"
+    card_view:cardElevation="8dp"
+    card_view:cardBackgroundColor="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/quizNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/myfont_font_family_roboto"
+                android:text="Test:"
+                android:textColor="@color/darkfont"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/scoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Score: 0"
+                android:textColor="#1020A9"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/myfont_font_family_roboto"/>
+
+            <TextView
+                android:id="@+id/timeTakenTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time Taken: 0 minutes"
+                android:textColor="#1020A9"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/myfont_font_family_roboto"/>
+
+            <TextView
+                android:id="@+id/quizDurationTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quiz Duration: 0 minutes"
+                android:textColor="#1020A9"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/myfont_font_family_roboto"/>
+
+            <TextView
+                android:id="@+id/wrongAnswersPercentageTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wrong Answers Percentage: 0%"
+                android:textColor="#1020A9"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/myfont_font_family_roboto"/>
+
+            <TextView
+                android:id="@+id/totalQuestionsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Questions: 0"
+                android:textColor="#1020A9"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/myfont_font_family_roboto"/>
+
+            <TextView
+                android:id="@+id/attemptedQuestionsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attempted Questions: 0"
+                android:textColor="#1020A9"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/myfont_font_family_roboto"/>
+
+            <TextView
+                android:id="@+id/dateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: YYYY-MM-DD"
+                android:textColor="#1020A9"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/myfont_font_family_roboto"/>
+
+            <TextView
+                android:id="@+id/timeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: HH:MM"
+                android:textColor="#1020A9"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/myfont_font_family_roboto"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

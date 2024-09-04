@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="180dp"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/rounded_corner_background"
+    android:backgroundTint="@color/green"
+    android:layout_margin="4dp">
+
+    <ImageView
+        android:id="@+id/quizImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/qs" />
+
+    <TextView
+        android:id="@+id/quizTitleTextView"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Quiz Title"
+        android:textStyle="bold"
+        android:textColor="@color/darkfont"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="8sp"
+        app:autoSizeMaxTextSize="16sp"/>
+
+</LinearLayout>
